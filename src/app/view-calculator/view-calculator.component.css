@@ -1,0 +1,97 @@
+.view-box{
+    width: 470px;
+    height: 650px;
+    
+    color: rgb(24, 23, 23);
+    top: 50%;
+    left: 50%;
+    background: rgb(138, 234, 247);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: navy;
+    border-radius: 10px;
+    border-style: groove ;
+    border-width: 5px;
+}
+.input-box{
+    width: 400px;
+    height: 30px;
+    background: ivory;
+    text-align: right;
+}
+.outer-one{
+    height:170px;
+}
+
+.first-row{
+    height:70px;
+}
+.spcl-box{
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.third-box{
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 30px;
+    
+}
+.forth-box{
+
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 132px;
+}
+.second-row{
+    height: 70px;
+}
+.third-row{
+    height: 70px;
+}
+.first-box{
+    width: 75px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 0px;
+}   
+.second-box{
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 42px;
+}
+.nextrow-third-box{
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 156px;
+}
+.nextrow-forth-box
+{
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 257px;
+}

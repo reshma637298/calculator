@@ -1,0 +1,43 @@
+<div class="view-box">
+   
+    <div class="outer-one">
+        <h2 style="text-align: center;">MY CALCULATOR</h2>
+        Input
+        <input class="input-box" type="text" id="myInput" value="{{input}}" (keyup)="keyboardInput($event)" (keypress)="keyboardOutput($event)">
+        Result
+        <input class="input-box" type="text" value="{{result}}" >
+    </div>
+    <div class="buttons">
+        <div class="first-row">
+            <button class="spcl-box" type="button" (click)="allClear()">C</button>
+            <button class="third-box" type="button" (click)="clear()">(=</button>
+            <button class="forth-box" type="button"(click)="pressOperator('%')">%</button>
+        </div>
+        <div class="second-row">
+            <button class="first-box" type="button" (click)="pressNum('7')">7</button>
+            <button class="second-box" type="button" (click)="pressNum('8')">8</button>
+            <button class="nextrow-third-box" type="button" (click)="pressNum('9')">9</button>
+            <button class="nextrow-forth-box" type="button"(click)="pressOperator('/')">/</button>
+        </div>
+        <div class="third-row">
+            <button class="first-box" type="button" (click)="pressNum('4')">4</button>
+            <button class="second-box" type="button" (click)="pressNum('5')">5</button>
+            <button class="nextrow-third-box" type="button" (click)="pressNum('6')">6</button>
+            <button class="nextrow-forth-box" type="button" (click)="pressOperator('*')">x</button>
+        </div>
+        <div class="third-row">
+            <button class="first-box" type="button" (click)="pressNum('1')">1</button>
+            <button class="second-box" type="button" (click)="pressNum('2')">2</button>
+            <button class="nextrow-third-box" type="button" (click)="pressNum('3')">3</button>
+            <button class="nextrow-forth-box" type="button" (click)="pressOperator('-')">-</button>
+        </div>
+        <div class="third-row">
+            <button class="first-box" type="button" (click)="pressNum('0')">0</button>
+            <button class="second-box" type="button" (click)="pressOperator('.')">.</button>
+            <button class="nextrow-third-box" type="button" id="myBtn" (click)="getAnswer()">=</button>
+            <button class="nextrow-forth-box" type="button" (click)="pressOperator('+')">+</button>
+        </div>
+    </div>
+        
+    
+</div>
